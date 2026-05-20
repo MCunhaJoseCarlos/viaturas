@@ -1,0 +1,1406 @@
+[
+  {
+    "matricula": "00-NC-34",
+    "chave": "00NC34",
+    "condutor": "Pereira",
+    "loja": "Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "HD 340 19  - PRA3",
+    "pin_galp": "7827"
+  },
+  {
+    "matricula": "00-PM-91",
+    "chave": "00PM91",
+    "condutor": "subs",
+    "loja": "Vila Real / Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "2600"
+  },
+  {
+    "matricula": "00-PM-92",
+    "chave": "00PM92",
+    "condutor": "Rui Almeida",
+    "loja": "Viseu",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "3392"
+  },
+  {
+    "matricula": "00-PM-93",
+    "chave": "00PM93",
+    "condutor": "Paulo Borges",
+    "loja": "Olá Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "3942"
+  },
+  {
+    "matricula": "00-PM-94",
+    "chave": "00PM94",
+    "condutor": "Candida Barbosa",
+    "loja": "Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "6706"
+  },
+  {
+    "matricula": "00-PM-95",
+    "chave": "00PM95",
+    "condutor": "João Vieira",
+    "loja": "Penafiel",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "7361"
+  },
+  {
+    "matricula": "01-MU-69",
+    "chave": "01MU69",
+    "condutor": "Pedro Carvalho",
+    "loja": "DPH",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "01-QT-70",
+    "chave": "01QT70",
+    "condutor": "Manuel Silva",
+    "loja": "barcelos",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "2252"
+  },
+  {
+    "matricula": "01-QT-72",
+    "chave": "01QT72",
+    "condutor": "Luis Cardoso",
+    "loja": "Vinhos",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "3047"
+  },
+  {
+    "matricula": "01-QT-73",
+    "chave": "01QT73",
+    "condutor": "Emanuel Coelho",
+    "loja": "Penafiel",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "4959"
+  },
+  {
+    "matricula": "01-RB-89",
+    "chave": "01RB89",
+    "condutor": "Carlos Lopes",
+    "loja": "Viseu - Distribuição",
+    "marca": "RENAULT",
+    "modelo": "MASTER    MA",
+    "pin_galp": "5288"
+  },
+  {
+    "matricula": "02-UL-18",
+    "chave": "02UL18",
+    "condutor": "Daniel Correia",
+    "loja": "VISEU",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "O285"
+  },
+  {
+    "matricula": "03-SL-66",
+    "chave": "03SL66",
+    "condutor": "Pedro Cunha",
+    "loja": "Administração",
+    "marca": "BMW",
+    "modelo": "320 D BERLINA          3L",
+    "pin_galp": "3524"
+  },
+  {
+    "matricula": "03-UL-59",
+    "chave": "03UL59",
+    "condutor": "Joaquim Silva",
+    "loja": "VISEU",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "O868"
+  },
+  {
+    "matricula": "03-UL-77",
+    "chave": "03UL77",
+    "condutor": "José António (Viseu)",
+    "loja": "VISEU",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "O623"
+  },
+  {
+    "matricula": "03-UL-95",
+    "chave": "03UL95",
+    "condutor": "Marco Santos",
+    "loja": "VISEU",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "8777"
+  },
+  {
+    "matricula": "06-SR-38",
+    "chave": "06SR38",
+    "condutor": "Paulo Filipe",
+    "loja": "V.Real/Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "06-TT-09",
+    "chave": "06TT09",
+    "condutor": "Fernanda Santos",
+    "loja": "VINHOS",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "06-TT-14",
+    "chave": "06TT14",
+    "condutor": "Miguel Abreu",
+    "loja": "Profissional",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "3224"
+  },
+  {
+    "matricula": "08-12-NU",
+    "chave": "0812NU",
+    "condutor": "Alfredo Cunha",
+    "loja": "Penafiel",
+    "marca": "PORSCHE",
+    "modelo": "911 CARRERA 4 (996)",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "09-BE-50",
+    "chave": "09BE50",
+    "condutor": "nan",
+    "loja": "Felgueiras",
+    "marca": "FORD",
+    "modelo": "FDEY (TRANSIT KOMBI)",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "09-ZF-48",
+    "chave": "09ZF48",
+    "condutor": "André Ribeiro",
+    "loja": "Penafiel",
+    "marca": "BMW",
+    "modelo": "X4     G4X",
+    "pin_galp": "5024"
+  },
+  {
+    "matricula": "11-TS-55",
+    "chave": "11TS55",
+    "condutor": "Sónia Mendes",
+    "loja": "Profissional",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "O511"
+  },
+  {
+    "matricula": "14-36-MZ",
+    "chave": "1436MZ",
+    "condutor": "Humberto Silva",
+    "loja": "Olá Régua",
+    "marca": "TOYOTA",
+    "modelo": "DYNA 250 (31BUE4) 6.0",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "14-UI-19",
+    "chave": "14UI19",
+    "condutor": "Manuel Rodrigues",
+    "loja": "viseu",
+    "marca": "MITSUBISHI",
+    "modelo": "FE4P10TF1N2",
+    "pin_galp": "7696"
+  },
+  {
+    "matricula": "14-VM-20",
+    "chave": "14VM20",
+    "condutor": "Alexandre Miguel",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "PEUGEOT",
+    "modelo": "L",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "15-XB-59",
+    "chave": "15XB59",
+    "condutor": "António Pinto",
+    "loja": "Olá Régua",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "436"
+  },
+  {
+    "matricula": "15-XB-74",
+    "chave": "15XB74",
+    "condutor": "António Fernandes",
+    "loja": "Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "9508"
+  },
+  {
+    "matricula": "15-XB-79",
+    "chave": "15XB79",
+    "condutor": "Maria de Deus",
+    "loja": "Olá Régua",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "2669"
+  },
+  {
+    "matricula": "15-XB-94",
+    "chave": "15XB94",
+    "condutor": "Norberto Pinto",
+    "loja": "Olá Régua",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "2902"
+  },
+  {
+    "matricula": "15-XB-99",
+    "chave": "15XB99",
+    "condutor": "Patricia Mesquita",
+    "loja": "Olá Régua",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "7650"
+  },
+  {
+    "matricula": "16-XB-02",
+    "chave": "16XB02",
+    "condutor": "Paulo Sousa",
+    "loja": "Ponte de Lima",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "1668"
+  },
+  {
+    "matricula": "16-XB-03",
+    "chave": "16XB03",
+    "condutor": "Valter Lima",
+    "loja": "Ponte de Lima",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "129"
+  },
+  {
+    "matricula": "18-08-OT",
+    "chave": "1808OT",
+    "condutor": "Teixeira",
+    "loja": "Olá Felgueiras",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER (FE659F6SL)",
+    "pin_galp": "7264"
+  },
+  {
+    "matricula": "19-MH-12",
+    "chave": "19MH12",
+    "condutor": "Antonio Cunha",
+    "loja": "Paços de Ferreira",
+    "marca": "RENAULT",
+    "modelo": "MEGANE     Z",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "19-XQ-04",
+    "chave": "19XQ04",
+    "condutor": "Catarina Banaco",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "FORD",
+    "modelo": "JN8",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "21-UU-21",
+    "chave": "21UU21",
+    "condutor": "José Mendes",
+    "loja": "Vinhos",
+    "marca": "RENAULT",
+    "modelo": "Master   MA",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "21-UU-22",
+    "chave": "21UU22",
+    "condutor": "Juliana Ferreira",
+    "loja": "Regua",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "21-VG-18",
+    "chave": "21VG18",
+    "condutor": "Elisa Cunha",
+    "loja": "Penafiel",
+    "marca": "PORSCHE",
+    "modelo": "PANAMERA     971",
+    "pin_galp": "3526"
+  },
+  {
+    "matricula": "24-ZS-56",
+    "chave": "24ZS56",
+    "condutor": "Antonio Leitao",
+    "loja": "MCITECH",
+    "marca": "RENAULT",
+    "modelo": "Clio",
+    "pin_galp": "8625"
+  },
+  {
+    "matricula": "25-MP-47",
+    "chave": "25MP47",
+    "condutor": "Helder Moreira",
+    "loja": "DPH",
+    "marca": "RENAULT",
+    "modelo": "MDA3C",
+    "pin_galp": "1129"
+  },
+  {
+    "matricula": "25-ST-56",
+    "chave": "25ST56",
+    "condutor": "Adão Cruz",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "SCANIA",
+    "modelo": "P230 B4X2",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "27-ZQ-61",
+    "chave": "27ZQ61",
+    "condutor": "Zé Tó",
+    "loja": "Vinhos",
+    "marca": "RENAULT",
+    "modelo": "CLIO",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "28-QR-55",
+    "chave": "28QR55",
+    "condutor": "Vitor Fonseca",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "VOLVO",
+    "modelo": "FEF3C",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "29-24-RV",
+    "chave": "2924RV",
+    "condutor": "nan",
+    "loja": "Felgueiras",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER (FE659F6SL)",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "29-TF-05",
+    "chave": "29TF05",
+    "condutor": "Clara Carvalho",
+    "loja": "Barcelos-distrib.",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "7678"
+  },
+  {
+    "matricula": "29-TF-08",
+    "chave": "29TF08",
+    "condutor": "Paulo Carvalho",
+    "loja": "Paulo Carvalho",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "2814"
+  },
+  {
+    "matricula": "29-TF-09",
+    "chave": "29TF09",
+    "condutor": "José Carvalho",
+    "loja": "Profissional",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "1457"
+  },
+  {
+    "matricula": "29-TF-21",
+    "chave": "29TF21",
+    "condutor": "Pedro Ribeiro",
+    "loja": "Profissional",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "6641"
+  },
+  {
+    "matricula": "29-UC-26",
+    "chave": "29UC26",
+    "condutor": "Paulo Silva",
+    "loja": "Rentarcar",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "7099"
+  },
+  {
+    "matricula": "29-UC-30",
+    "chave": "29UC30",
+    "condutor": "Substituição",
+    "loja": "nan",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "2620"
+  },
+  {
+    "matricula": "30-RU-61",
+    "chave": "30RU61",
+    "condutor": "Bruno Miguel Cruz",
+    "loja": "Viseu - Distribuição",
+    "marca": "IVECO",
+    "modelo": "IG120E2BA",
+    "pin_galp": "2752"
+  },
+  {
+    "matricula": "33-MP-40",
+    "chave": "33MP40",
+    "condutor": "nan",
+    "loja": "Felgueiras",
+    "marca": "OPEL",
+    "modelo": "ASTRA 1.7CDTI 5P         J",
+    "pin_galp": "2830"
+  },
+  {
+    "matricula": "35-MB-06",
+    "chave": "35MB06",
+    "condutor": "Armando Paulo",
+    "loja": "Barcelos-distrib.",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER   FE85SG6SL",
+    "pin_galp": "6590"
+  },
+  {
+    "matricula": "35-MB-07",
+    "chave": "35MB07",
+    "condutor": "Pedro Ribeiro",
+    "loja": "DPH",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER   FE85SG6SL",
+    "pin_galp": "3977"
+  },
+  {
+    "matricula": "35-MB-09",
+    "chave": "35MB09",
+    "condutor": "Augusto",
+    "loja": "DPH",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER   FE85SG6SL",
+    "pin_galp": "325"
+  },
+  {
+    "matricula": "35-PN-94",
+    "chave": "35PN94",
+    "condutor": "Mario Cerqueira",
+    "loja": "Vinhos",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "3153"
+  },
+  {
+    "matricula": "35-XJ-12",
+    "chave": "35XJ12",
+    "condutor": "Hugo Monteiro",
+    "loja": "Profissional",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "O447"
+  },
+  {
+    "matricula": "36-MV-35",
+    "chave": "36MV35",
+    "condutor": "Bento Martins",
+    "loja": "Auto-bacalhau",
+    "marca": "TOYOTA",
+    "modelo": "DYNA       Y2P(A)",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "36-UR-74",
+    "chave": "36UR74",
+    "condutor": "Jorge Costa",
+    "loja": "Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "TRAFIC    JL",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "39-OD-42",
+    "chave": "39OD42",
+    "condutor": "Joana Leal",
+    "loja": "Olá Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "7703"
+  },
+  {
+    "matricula": "39-OD-43",
+    "chave": "39OD43",
+    "condutor": "Claudia Rodrigues",
+    "loja": "Olá Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "5201"
+  },
+  {
+    "matricula": "39-OD-44",
+    "chave": "39OD44",
+    "condutor": "André Braziela",
+    "loja": "Olá Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "6429"
+  },
+  {
+    "matricula": "40-NQ-87",
+    "chave": "40NQ87",
+    "condutor": "Substituição",
+    "loja": "Barcelos - prof.",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "9079"
+  },
+  {
+    "matricula": "41-HP-09",
+    "chave": "41HP09",
+    "condutor": "João Lima",
+    "loja": "Ponte de Lima",
+    "marca": "MITSUBISHI",
+    "modelo": "FE85DG6SL",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "41-UC-87",
+    "chave": "41UC87",
+    "condutor": "João Ferreira",
+    "loja": "Vinhos",
+    "marca": "RENAULT",
+    "modelo": "MASTER   MA",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "42-40-FJ",
+    "chave": "4240FJ",
+    "condutor": "Paulo Jorge Antunes Mota",
+    "loja": "Olá Régua",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER (FE444FXSLEA5)",
+    "pin_galp": "O595"
+  },
+  {
+    "matricula": "42-OI-08",
+    "chave": "42OI08",
+    "condutor": "Rui Pedro",
+    "loja": "Olá Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "MEGANE    Z",
+    "pin_galp": "1679"
+  },
+  {
+    "matricula": "43-QH-82",
+    "chave": "43QH82",
+    "condutor": "Basilio Araujo",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "MITSUBISHI",
+    "modelo": "FE4P10TF1N2",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "46-14-GB",
+    "chave": "4614GB",
+    "condutor": "nan",
+    "loja": "nan",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER (FE444EXSLEA4)",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "49-UF-61",
+    "chave": "49UF61",
+    "condutor": "Sergio Ribeiro",
+    "loja": "Olá Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "Clio",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "50-BS-10",
+    "chave": "50BS10",
+    "condutor": "Jorge Castro",
+    "loja": "Penafiel",
+    "marca": "MITSUBISHI",
+    "modelo": "TD (CANTER) (FE85PG6SL)",
+    "pin_galp": "6839"
+  },
+  {
+    "matricula": "51-MN-88",
+    "chave": "51MN88",
+    "condutor": "Rui Almeida",
+    "loja": "Viseu",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "7190"
+  },
+  {
+    "matricula": "52-OS-27",
+    "chave": "52OS27",
+    "condutor": "Carvalho",
+    "loja": "Olá Felgueiras",
+    "marca": "MITSUBISHI",
+    "modelo": "FE4P10TF1N2",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "53-74-IA",
+    "chave": "5374IA",
+    "condutor": "Alvaro Regua",
+    "loja": "Olá Régua",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER (FE649F6SL)",
+    "pin_galp": "9193"
+  },
+  {
+    "matricula": "54-HM-62",
+    "chave": "54HM62",
+    "condutor": "Armando Gonçalves",
+    "loja": "Auto-bacalhau PF",
+    "marca": "TOYOTA",
+    "modelo": "DYNA (KDY231) - SD",
+    "pin_galp": "2334"
+  },
+  {
+    "matricula": "55-45-UM",
+    "chave": "5545UM",
+    "condutor": "nan",
+    "loja": "Vinhos",
+    "marca": "TOYOTA",
+    "modelo": "HIACE (21JK11)2.8-TN",
+    "pin_galp": "2830"
+  },
+  {
+    "matricula": "55-RG-25",
+    "chave": "55RG25",
+    "condutor": "Natália Carvalho",
+    "loja": "Barcelos-distrib.",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "58-56-QB",
+    "chave": "5856QB",
+    "condutor": "nan",
+    "loja": "Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "HD 300.19 51",
+    "pin_galp": "1552"
+  },
+  {
+    "matricula": "58-UO-79",
+    "chave": "58UO79",
+    "condutor": "José Boído",
+    "loja": "Vinhos",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "1012"
+  },
+  {
+    "matricula": "59-JT-22",
+    "chave": "59JT22",
+    "condutor": "Manuel Caçador",
+    "loja": "Ponte de Lima",
+    "marca": "MITSUBISHI",
+    "modelo": "FE85SG6SL1",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "59-XU-23",
+    "chave": "59XU23",
+    "condutor": "Vários",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "FORD",
+    "modelo": "FCD",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "60-SJ-01",
+    "chave": "60SJ01",
+    "condutor": "Ines E Santo",
+    "loja": "DPH",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "4255"
+  },
+  {
+    "matricula": "60-SJ-24",
+    "chave": "60SJ24",
+    "condutor": "Tatiana Silva",
+    "loja": "Profissional",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "1746"
+  },
+  {
+    "matricula": "62-TB-61",
+    "chave": "62TB61",
+    "condutor": "Já não está em Coimbra",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "FORD",
+    "modelo": "BA7",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "62-TM-37",
+    "chave": "62TM37",
+    "condutor": "Ana Rodrigues",
+    "loja": "Olá Felgueiras",
+    "marca": "CLIO",
+    "modelo": "CLIO     R",
+    "pin_galp": "5542"
+  },
+  {
+    "matricula": "64-HM-89",
+    "chave": "64HM89",
+    "condutor": "Sr.Cardoso",
+    "loja": "Olá Felgueiras",
+    "marca": "MITSUBISHI",
+    "modelo": "FE85DG6SL",
+    "pin_galp": "7983"
+  },
+  {
+    "matricula": "67-HP-05",
+    "chave": "67HP05",
+    "condutor": "Manuel Rodrigues",
+    "loja": "Viseu - Distribuição",
+    "marca": "ISUZO",
+    "modelo": "NQR 190.75/34 (75L-5L) E4",
+    "pin_galp": "3045"
+  },
+  {
+    "matricula": "68-RN-20",
+    "chave": "68RN20",
+    "condutor": "António Santos",
+    "loja": "Vinhos",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "9596"
+  },
+  {
+    "matricula": "69-PE-22",
+    "chave": "69PE22",
+    "condutor": "Vários",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "FORD",
+    "modelo": "JN8",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "73-VX-76",
+    "chave": "73VX76",
+    "condutor": "Martinho Pires",
+    "loja": "DPH",
+    "marca": "Renault",
+    "modelo": "CLIO     R",
+    "pin_galp": "2796"
+  },
+  {
+    "matricula": "74-58-SV",
+    "chave": "7458SV",
+    "condutor": "Julio Pinto",
+    "loja": "Olá Régua",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER (FE659F6SL)",
+    "pin_galp": "6881"
+  },
+  {
+    "matricula": "74-64-SV",
+    "chave": "7464SV",
+    "condutor": "José António Teixeira",
+    "loja": "Olá Felgueiras",
+    "marca": "MITSUBISHI",
+    "modelo": "CANTER (FE659F6SL)",
+    "pin_galp": "2565"
+  },
+  {
+    "matricula": "77-TD-65",
+    "chave": "77TD65",
+    "condutor": "João Sousa",
+    "loja": "Olá Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "77-TD-70",
+    "chave": "77TD70",
+    "condutor": "Manuel Maia",
+    "loja": "Olá Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "79-XJ-17",
+    "chave": "79XJ17",
+    "condutor": "Substituição",
+    "loja": "Felgueiras",
+    "marca": "RENAULT",
+    "modelo": "CLIO",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "80-ZA-86",
+    "chave": "80ZA86",
+    "condutor": "Celso Marques",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "FORD",
+    "modelo": "FDG6",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "80-ZA-86",
+    "chave": "80ZA86",
+    "condutor": "Nuno Gois",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "VOLVO",
+    "modelo": "FLB3C",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "86-ST-67",
+    "chave": "86ST67",
+    "condutor": "Paulo Soares",
+    "loja": "Ponte de Lima",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "87-LS-78",
+    "chave": "87LS78",
+    "condutor": "Paços de Ferreira",
+    "loja": "Paços de Ferreira",
+    "marca": "FORD",
+    "modelo": "TRANSIT FDE6",
+    "pin_galp": "4324"
+  },
+  {
+    "matricula": "88-LJ-26",
+    "chave": "88LJ26",
+    "condutor": "Santana",
+    "loja": "Olá Felgueiras",
+    "marca": "MITSUBISHI",
+    "modelo": "FE85SG6SL",
+    "pin_galp": "2428"
+  },
+  {
+    "matricula": "89-DD-31",
+    "chave": "89DD31",
+    "condutor": "Nelson",
+    "loja": "Felgueiras",
+    "marca": "MITSUBISHI",
+    "modelo": "FE85BG6SL",
+    "pin_galp": "4184"
+  },
+  {
+    "matricula": "91-VF-70",
+    "chave": "91VF70",
+    "condutor": "Andre Soares",
+    "loja": "Vinhos",
+    "marca": "RENAULT",
+    "modelo": "CLIO",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "96-MO-68",
+    "chave": "96MO68",
+    "condutor": "Já não está em Coimbra",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "FORD",
+    "modelo": "BA7",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "97-AD-33",
+    "chave": "97AD33",
+    "condutor": "nan",
+    "loja": "Penafiel",
+    "marca": "MERCEDES",
+    "modelo": "C 220 CDI (203 008)",
+    "pin_galp": "8596"
+  },
+  {
+    "matricula": "97-OL-28",
+    "chave": "97OL28",
+    "condutor": "António Borges",
+    "loja": "Olá Régua",
+    "marca": "RENAULT",
+    "modelo": "CLIO     R",
+    "pin_galp": "8188"
+  },
+  {
+    "matricula": "AA-03-MX",
+    "chave": "AA03MX",
+    "condutor": "Diogo Ribeiro",
+    "loja": "Administração",
+    "marca": "Mercedes",
+    "modelo": "204X",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "AA-89-JR",
+    "chave": "AA89JR",
+    "condutor": "Ricardo Queiros",
+    "loja": "Penafiel",
+    "marca": "RENAULT",
+    "modelo": "CLIO DCI    RJA",
+    "pin_galp": "3855"
+  },
+  {
+    "matricula": "AE-18-MM",
+    "chave": "AE18MM",
+    "condutor": "Eugénio Oliveira",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "FORD",
+    "modelo": "J2K",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "AE-45-OG",
+    "chave": "AE45OG",
+    "condutor": "António Malva",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "VOLVO",
+    "modelo": "FEF3C",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "AE-48-ZV",
+    "chave": "AE48ZV",
+    "condutor": "José Seiça",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "FORD",
+    "modelo": "JN8",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "AE-88-VF",
+    "chave": "AE88VF",
+    "condutor": "Joaquim Santos",
+    "loja": "DPH",
+    "marca": "SCANIA",
+    "modelo": "N323",
+    "pin_galp": "6343"
+  },
+  {
+    "matricula": "AF-76-CL",
+    "chave": "AF76CL",
+    "condutor": "Samuel CUNHA",
+    "loja": "nan",
+    "marca": "RENAULT",
+    "modelo": "RJA",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "AG-39-NQ",
+    "chave": "AG39NQ",
+    "condutor": "Vitor Antunes",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "IVECO",
+    "modelo": "IS35CI2AA",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "AO-93-DV",
+    "chave": "AO93DV",
+    "condutor": "Christophe",
+    "loja": "Vinhos",
+    "marca": "RENAULT",
+    "modelo": "MEGANE 1.5 DCI",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "AQ-72-HC",
+    "chave": "AQ72HC",
+    "condutor": "Substituto Sergio _ Paulo Barros",
+    "loja": "Penafiel",
+    "marca": "RENAULT",
+    "modelo": "3",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "AQ-97-EO",
+    "chave": "AQ97EO",
+    "condutor": "Celso",
+    "loja": "Vila Real",
+    "marca": "RENAULT",
+    "modelo": "MASTER TRANSP.       MA",
+    "pin_galp": "4416"
+  },
+  {
+    "matricula": "AV-97-XS",
+    "chave": "AV97XS",
+    "condutor": "Castelo (Manuel Rocha)",
+    "loja": "Felgueiras",
+    "marca": "Volvo",
+    "modelo": "nan",
+    "pin_galp": "9242"
+  },
+  {
+    "matricula": "AX-24-JR",
+    "chave": "AX24JR",
+    "condutor": "Pedro Cunha",
+    "loja": "Administração",
+    "marca": "TESLA",
+    "modelo": "MODEL Y",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "AZ-43-IP",
+    "chave": "AZ43IP",
+    "condutor": "Isabel Sobreira",
+    "loja": "Leiria",
+    "marca": "TESLA",
+    "modelo": "MODEL 3",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "AZ-72-JF",
+    "chave": "AZ72JF",
+    "condutor": "nan",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "FORD",
+    "modelo": "JN8",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "BB-94-TC",
+    "chave": "BB94TC",
+    "condutor": "Ant. Matos Magalhães",
+    "loja": "Penafiel",
+    "marca": "TESLA",
+    "modelo": "MODEL 3",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BC-48-EV",
+    "chave": "BC48EV",
+    "condutor": "Rogerio Santana",
+    "loja": "Penafiel",
+    "marca": "RENAULT",
+    "modelo": "KANGOO VAN",
+    "pin_galp": "9783"
+  },
+  {
+    "matricula": "BE-77-TT",
+    "chave": "BE77TT",
+    "condutor": "Cardoso-Distribuição",
+    "loja": "nan",
+    "marca": "MITSUBISHI",
+    "modelo": "Fuso Canter",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BF-12-RX",
+    "chave": "BF12RX",
+    "condutor": "Humberto Delgado",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "IVECO",
+    "modelo": "IS35CI2AA",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "BG-05-AF",
+    "chave": "BG05AF",
+    "condutor": "Luis Silva",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "RENAULT",
+    "modelo": "RFK",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "BG-11-AG",
+    "chave": "BG11AG",
+    "condutor": "Pedro Lopes",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "RENAULT",
+    "modelo": "RFK",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "BG-12-IJ",
+    "chave": "BG12IJ",
+    "condutor": "Miguel Angelo",
+    "loja": "DPH",
+    "marca": "RENAULT",
+    "modelo": "CLIO",
+    "pin_galp": "2468"
+  },
+  {
+    "matricula": "BG-30-XQ",
+    "chave": "BG30XQ",
+    "condutor": "Profissional",
+    "loja": "Profissional",
+    "marca": "RENAULT",
+    "modelo": "MASTER 2,3 DCI",
+    "pin_galp": "O5O5"
+  },
+  {
+    "matricula": "BG-33-AF",
+    "chave": "BG33AF",
+    "condutor": "António Albino",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "RENAULT",
+    "modelo": "RFK",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "BG-38-IJ",
+    "chave": "BG38IJ",
+    "condutor": "Filipe Caldeira",
+    "loja": "DPH",
+    "marca": "RENAULT",
+    "modelo": "CLIO",
+    "pin_galp": "1986"
+  },
+  {
+    "matricula": "BG-42-AG",
+    "chave": "BG42AG",
+    "condutor": "Tiago Domingos",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "RENAULT",
+    "modelo": "RFK",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "BG-48-IJ",
+    "chave": "BG48IJ",
+    "condutor": "Marco Lourinho",
+    "loja": "DPH",
+    "marca": "RENAULT",
+    "modelo": "CLIO",
+    "pin_galp": "1126"
+  },
+  {
+    "matricula": "BG-52-QR",
+    "chave": "BG52QR",
+    "condutor": "Joaquim Cunha",
+    "loja": "Administração",
+    "marca": "BMW",
+    "modelo": "740D",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BG-81-II",
+    "chave": "BG81II",
+    "condutor": "Pedro Miguel",
+    "loja": "DPH",
+    "marca": "RENAULT",
+    "modelo": "CLIO",
+    "pin_galp": "O426"
+  },
+  {
+    "matricula": "BH-56-NT",
+    "chave": "BH56NT",
+    "condutor": "Renato Cunha",
+    "loja": "Administração",
+    "marca": "MERCEDES",
+    "modelo": "GLE 300",
+    "pin_galp": "1603"
+  },
+  {
+    "matricula": "BH-67-QV",
+    "chave": "BH67QV",
+    "condutor": "Diogo Marques",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "VOLVO",
+    "modelo": "FLB3C",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "BI-93-FG",
+    "chave": "BI93FG",
+    "condutor": "Maria Cunha",
+    "loja": "Administração",
+    "marca": "MERCEDES",
+    "modelo": "GLC 300 $ Matic Coupe",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BL-63-NV",
+    "chave": "BL63NV",
+    "condutor": "Camilo Rocha",
+    "loja": "Barcelos",
+    "marca": "RENAULT",
+    "modelo": "master",
+    "pin_galp": "7224"
+  },
+  {
+    "matricula": "BO-31-HC",
+    "chave": "BO31HC",
+    "condutor": "Norberto Pinto",
+    "loja": "MCITECH",
+    "marca": "Tesla",
+    "modelo": "MODEL 3",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BO-38-HC",
+    "chave": "BO38HC",
+    "condutor": "Ruben Cunha",
+    "loja": "MCITECH",
+    "marca": "Tesla",
+    "modelo": "MODEL 3",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BO-43-HC",
+    "chave": "BO43HC",
+    "condutor": "Filipe Faria",
+    "loja": "MCITECH",
+    "marca": "Tesla",
+    "modelo": "MODEL 3",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BQ-02-ZC",
+    "chave": "BQ02ZC",
+    "condutor": "Manuel Augusto",
+    "loja": "nan",
+    "marca": "Tesla",
+    "modelo": "MODEL 3",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BQ-02-ZC",
+    "chave": "BQ02ZC",
+    "condutor": "Manuel Augusto Figueiredo",
+    "loja": "MC Coimbra (P&S)",
+    "marca": "TESLA",
+    "modelo": "MODEL 3",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "BQ-22-JG",
+    "chave": "BQ22JG",
+    "condutor": "Mário Cerqueira",
+    "loja": "nan",
+    "marca": "Tesla",
+    "modelo": "MODEL 3",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BQ-25-XL",
+    "chave": "BQ25XL",
+    "condutor": "nan",
+    "loja": "Viseu",
+    "marca": "Iveco",
+    "modelo": "Eurocargo",
+    "pin_galp": "6262"
+  },
+  {
+    "matricula": "BQ-68-DC",
+    "chave": "BQ68DC",
+    "condutor": "Carlos Santana",
+    "loja": "Hotelaria",
+    "marca": "Renault",
+    "modelo": "Kangoo 3 Van PH1 start DCI",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BR-97-UU",
+    "chave": "BR97UU",
+    "condutor": "Alfredo Cunha",
+    "loja": "nan",
+    "marca": "BMW",
+    "modelo": "540d xDrive Berlina",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BS-00-FD",
+    "chave": "BS00FD",
+    "condutor": "nan",
+    "loja": "Coimbra/Coimbris",
+    "marca": "Renault",
+    "modelo": "Kangoo 3 Van  PH1 L1 STAR",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BT-39-XJ",
+    "chave": "BT39XJ",
+    "condutor": "nan",
+    "loja": "Coimbra",
+    "marca": "",
+    "modelo": "",
+    "pin_galp": "nan"
+  },
+  {
+    "matricula": "BX-96-PI",
+    "chave": "BX96PI",
+    "condutor": "nan",
+    "loja": "Regua",
+    "marca": "Iveco",
+    "modelo": "Eurocargo",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "CA-88-RF",
+    "chave": "CA88RF",
+    "condutor": "Ramiro Monteiro",
+    "loja": "nan",
+    "marca": "Tesla",
+    "modelo": "Model 3 Long Range",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "CE-35-NL",
+    "chave": "CE35NL",
+    "condutor": "nan",
+    "loja": "Regua",
+    "marca": "Iveco",
+    "modelo": "Eurocargo",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "CG-40-HC",
+    "chave": "CG40HC",
+    "condutor": "Elisa Cunha",
+    "loja": "Penafiel",
+    "marca": "PORSCHE",
+    "modelo": "PANAMERA    4 E-HYBRID",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "CF-23-QA",
+    "chave": "CF23QA",
+    "condutor": "nan",
+    "loja": "Profissional",
+    "marca": "RENAULT",
+    "modelo": "KANGOO VAN",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "CH-37-CT",
+    "chave": "CH37CT",
+    "condutor": "nan",
+    "loja": "nan",
+    "marca": "RENAULT",
+    "modelo": "KANGOO VAN",
+    "pin_galp": "3681"
+  }
+]
