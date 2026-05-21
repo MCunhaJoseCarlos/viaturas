@@ -11,7 +11,6 @@
       --verde:       #1a6b3c;
       --verde-esc:   #124d2b;
       --verde-claro: #e8f5ee;
-      --verde-med:   #c3e6d2;
       --cinza-fundo: #f5f6f8;
       --cinza-borda: #dde1e8;
       --cinza-texto: #6b7280;
@@ -63,7 +62,7 @@
       box-shadow: var(--sombra);
       padding: 2rem 2rem 1.75rem;
       width: 100%;
-      max-width: 480px;
+      max-width: 520px;
     }
     .card-pesquisa h1 {
       font-size: 18px;
@@ -76,6 +75,25 @@
       color: var(--cinza-texto);
       margin-bottom: 1.5rem;
       line-height: 1.5;
+    }
+
+    /* separador entre campos */
+    .separador {
+      display: flex;
+      align-items: center;
+      gap: .75rem;
+      margin: .25rem 0 1rem;
+      color: var(--cinza-texto);
+      font-size: 12px;
+      font-weight: 600;
+      text-transform: uppercase;
+      letter-spacing: .06em;
+    }
+    .separador::before, .separador::after {
+      content: "";
+      flex: 1;
+      height: 1px;
+      background: var(--cinza-borda);
     }
 
     label {
@@ -102,24 +120,30 @@
     }
     input[type="text"] {
       width: 100%;
-      height: 48px;
+      height: 46px;
       padding: 0 1rem 0 42px;
-      font-size: 17px;
-      font-family: "Consolas", "Courier New", monospace;
-      font-weight: 600;
-      letter-spacing: .08em;
+      font-size: 15px;
+      font-family: "Segoe UI", system-ui, Arial, sans-serif;
       border: 1.5px solid var(--cinza-borda);
       border-radius: 9px;
       background: var(--cinza-fundo);
       color: var(--texto);
       outline: none;
       transition: border-color .15s, background .15s;
-      text-transform: uppercase;
     }
     input[type="text"]:focus {
       border-color: var(--verde);
       background: var(--branco);
       box-shadow: 0 0 0 3px rgba(26,107,60,.12);
+    }
+
+    /* campo matrícula tem fonte especial */
+    #inp-matricula {
+      font-family: "Consolas", "Courier New", monospace;
+      font-size: 17px;
+      font-weight: 600;
+      letter-spacing: .08em;
+      text-transform: uppercase;
     }
 
     .exemplo {
@@ -138,8 +162,14 @@
       margin-right: 4px;
     }
 
+    .btn-row {
+      display: flex;
+      gap: .75rem;
+      margin-top: .25rem;
+    }
+
     button.btn-pesquisar {
-      width: 100%;
+      flex: 1;
       height: 48px;
       background: var(--verde);
       color: #fff;
@@ -158,6 +188,20 @@
     button.btn-pesquisar:active { transform: scale(.98); }
     button.btn-pesquisar:disabled { background: #aaa; cursor: not-allowed; }
 
+    button.btn-limpar {
+      height: 48px;
+      padding: 0 1.25rem;
+      background: var(--cinza-fundo);
+      color: var(--cinza-texto);
+      font-size: 14px;
+      font-weight: 600;
+      border: 1.5px solid var(--cinza-borda);
+      border-radius: 9px;
+      cursor: pointer;
+      transition: background .15s;
+    }
+    button.btn-limpar:hover { background: #eaedf1; }
+
     /* ── Mensagem de erro ── */
     .msg-erro {
       display: none;
@@ -173,24 +217,103 @@
     }
     .msg-erro.visivel { display: flex; }
 
-    /* ── Card de resultado ── */
+    /* ── Contador de resultados ── */
+    .contador {
+      display: none;
+      font-size: 13px;
+      color: var(--cinza-texto);
+      margin-top: 1rem;
+      text-align: center;
+    }
+    .contador.visivel { display: block; }
+    .contador strong { color: var(--verde-esc); }
+
+    /* ── Card de resultado único ── */
     .card-resultado {
       background: var(--branco);
       border-radius: 14px;
       box-shadow: var(--sombra);
       width: 100%;
-      max-width: 480px;
+      max-width: 520px;
       overflow: hidden;
       display: none;
       animation: fadeUp .22s ease;
     }
     .card-resultado.visivel { display: block; }
 
+    /* ── Lista de resultados múltiplos ── */
+    .lista-resultados {
+      width: 100%;
+      max-width: 520px;
+      display: none;
+      flex-direction: column;
+      gap: .75rem;
+      animation: fadeUp .22s ease;
+    }
+    .lista-resultados.visivel { display: flex; }
+
+    .item-lista {
+      background: var(--branco);
+      border-radius: 12px;
+      box-shadow: var(--sombra);
+      overflow: hidden;
+      cursor: pointer;
+      transition: box-shadow .15s, transform .1s;
+      border: 1.5px solid transparent;
+    }
+    .item-lista:hover {
+      box-shadow: 0 4px 20px rgba(26,107,60,.15);
+      border-color: var(--verde);
+      transform: translateY(-1px);
+    }
+    .item-lista-header {
+      background: var(--verde);
+      color: #fff;
+      padding: .65rem 1rem;
+      display: flex;
+      align-items: center;
+      gap: 10px;
+    }
+    .item-mat {
+      font-family: "Consolas", monospace;
+      font-size: 15px;
+      font-weight: 700;
+      letter-spacing: .08em;
+    }
+    .item-submarca {
+      font-size: 12px;
+      opacity: .8;
+    }
+    .item-corpo {
+      padding: .6rem 1rem;
+      display: flex;
+      gap: 1.5rem;
+      flex-wrap: wrap;
+    }
+    .item-campo {
+      display: flex;
+      flex-direction: column;
+      gap: 2px;
+    }
+    .item-chave {
+      font-size: 11px;
+      font-weight: 600;
+      color: var(--cinza-texto);
+      text-transform: uppercase;
+      letter-spacing: .04em;
+    }
+    .item-valor {
+      font-size: 13.5px;
+      font-weight: 600;
+      color: var(--texto);
+    }
+
     @keyframes fadeUp {
       from { opacity: 0; transform: translateY(10px); }
       to   { opacity: 1; transform: translateY(0); }
     }
 
+    /* ── Card detalhe (único / expandido da lista) ── */
     .res-header {
       background: var(--verde);
       color: #fff;
@@ -207,20 +330,13 @@
       flex-shrink: 0;
     }
     .res-matricula {
-      font-size: 20px;
-      font-weight: 700;
+      font-size: 20px; font-weight: 700;
       letter-spacing: .1em;
       font-family: "Consolas", monospace;
     }
-    .res-submarca {
-      font-size: 13px;
-      opacity: .8;
-      margin-top: 1px;
-    }
+    .res-submarca { font-size: 13px; opacity: .8; margin-top: 1px; }
 
-    .res-corpo {
-      padding: 1rem 1.25rem;
-    }
+    .res-corpo { padding: 1rem 1.25rem; }
     .res-linha {
       display: flex;
       justify-content: space-between;
@@ -231,32 +347,34 @@
     }
     .res-linha:last-child { border-bottom: none; }
     .res-chave {
-      font-size: 12.5px;
-      font-weight: 600;
+      font-size: 12.5px; font-weight: 600;
       color: var(--cinza-texto);
-      text-transform: uppercase;
-      letter-spacing: .04em;
+      text-transform: uppercase; letter-spacing: .04em;
       flex-shrink: 0;
     }
-    .res-valor {
-      font-size: 14px;
-      font-weight: 600;
-      color: var(--texto);
-      text-align: right;
-    }
+    .res-valor { font-size: 14px; font-weight: 600; color: var(--texto); text-align: right; }
     .res-valor.pin {
-      font-family: "Consolas", monospace;
-      font-size: 15px;
-      background: var(--verde-claro);
-      color: var(--verde-esc);
-      padding: 2px 10px;
-      border-radius: 6px;
+      font-family: "Consolas", monospace; font-size: 15px;
+      background: var(--verde-claro); color: var(--verde-esc);
+      padding: 2px 10px; border-radius: 6px;
     }
-    .res-vazio {
-      color: var(--cinza-texto);
-      font-weight: 400;
-      font-style: italic;
+    .res-vazio { color: var(--cinza-texto); font-weight: 400; font-style: italic; }
+
+    .btn-voltar {
+      display: none;
+      align-items: center;
+      gap: 6px;
+      background: none;
+      border: none;
+      color: var(--verde);
+      font-size: 13.5px;
+      font-weight: 600;
+      cursor: pointer;
+      padding: 0;
+      margin-bottom: .5rem;
     }
+    .btn-voltar.visivel { display: flex; }
+    .btn-voltar:hover { color: var(--verde-esc); }
 
     /* ── Rodapé ── */
     footer {
@@ -290,9 +408,10 @@
 
 <main>
   <div class="card-pesquisa">
-    <h1>Dados da viatura</h1>
-    <p class="subtitulo">Introduza a matrícula para consultar o condutor, loja e demais dados associados.</p>
+    <h1>Pesquisar viatura</h1>
+    <p class="subtitulo">Preencha um ou mais campos para consultar os dados da viatura.</p>
 
+    <!-- Matrícula -->
     <label for="inp-matricula">Matrícula</label>
     <div class="input-wrap">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
@@ -302,33 +421,67 @@
       </svg>
       <input id="inp-matricula" type="text" maxlength="9"
              placeholder="XX-XX-XX"
-             autocomplete="off" autocorrect="off" spellcheck="false"
-             inputmode="text" />
+             autocomplete="off" autocorrect="off" spellcheck="false" />
     </div>
-
     <p class="exemplo">
-      Ex:&nbsp;
-      <span>AA-89-JR</span>
-      <span>97-AD-33</span>
-      <span>05-54-TD</span>
+      Ex:&nbsp;<span>AA-89-JR</span><span>97-AD-33</span><span>05-54-TD</span>
     </p>
 
-    <button class="btn-pesquisar" id="btn-pesquisar" disabled>
-      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
-        <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+    <div class="separador">ou pesquise por</div>
+
+    <!-- Condutor -->
+    <label for="inp-condutor">Condutor</label>
+    <div class="input-wrap">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M20 21v-2a4 4 0 0 0-4-4H8a4 4 0 0 0-4 4v2"/>
+        <circle cx="12" cy="7" r="4"/>
       </svg>
-      Pesquisar
-    </button>
+      <input id="inp-condutor" type="text" placeholder="Nome do condutor" autocomplete="off" />
+    </div>
+
+    <!-- Loja -->
+    <label for="inp-loja">Loja</label>
+    <div class="input-wrap" style="margin-bottom:1.5rem">
+      <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+        <path d="M3 9l9-7 9 7v11a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2z"/>
+        <polyline points="9 22 9 12 15 12 15 22"/>
+      </svg>
+      <input id="inp-loja" type="text" placeholder="Nome da loja" autocomplete="off" />
+    </div>
+
+    <div class="btn-row">
+      <button class="btn-pesquisar" id="btn-pesquisar" disabled>
+        <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+          <circle cx="11" cy="11" r="8"/><line x1="21" y1="21" x2="16.65" y2="16.65"/>
+        </svg>
+        Pesquisar
+      </button>
+      <button class="btn-limpar" id="btn-limpar">Limpar</button>
+    </div>
 
     <div class="msg-erro" id="msg-erro" role="alert">
       <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true" style="flex-shrink:0">
         <circle cx="12" cy="12" r="10"/><line x1="12" y1="8" x2="12" y2="12"/><line x1="12" y1="16" x2="12.01" y2="16"/>
       </svg>
-      <span id="msg-erro-texto">Matrícula não encontrada.</span>
+      <span id="msg-erro-texto">Nenhum resultado encontrado.</span>
     </div>
   </div>
 
-  <!-- Resultado -->
+  <!-- Contador -->
+  <div class="contador" id="contador"></div>
+
+  <!-- Botão voltar (quando está no detalhe vindo de lista) -->
+  <button class="btn-voltar" id="btn-voltar">
+    <svg width="15" height="15" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.5" stroke-linecap="round" stroke-linejoin="round">
+      <polyline points="15 18 9 12 15 6"/>
+    </svg>
+    Voltar à lista
+  </button>
+
+  <!-- Lista de resultados múltiplos -->
+  <div class="lista-resultados" id="lista-resultados" aria-live="polite"></div>
+
+  <!-- Resultado único / detalhe -->
   <div class="card-resultado" id="card-resultado" aria-live="polite">
     <div class="res-header">
       <div class="res-icone">
@@ -374,25 +527,35 @@
 </footer>
 
 <script>
-  const INP   = document.getElementById("inp-matricula");
-  const BTN   = document.getElementById("btn-pesquisar");
-  const ERRO  = document.getElementById("msg-erro");
-  const ETXT  = document.getElementById("msg-erro-texto");
-  const CARD  = document.getElementById("card-resultado");
+  const INP_MAT  = document.getElementById("inp-matricula");
+  const INP_COND = document.getElementById("inp-condutor");
+  const INP_LOJA = document.getElementById("inp-loja");
+  const BTN      = document.getElementById("btn-pesquisar");
+  const BTN_LMP  = document.getElementById("btn-limpar");
+  const BTN_VOLT = document.getElementById("btn-voltar");
+  const ERRO     = document.getElementById("msg-erro");
+  const ETXT     = document.getElementById("msg-erro-texto");
+  const CARD     = document.getElementById("card-resultado");
+  const LISTA    = document.getElementById("lista-resultados");
+  const CONTADOR = document.getElementById("contador");
 
   let DADOS = null;
+  let ultimaLista = [];
 
   /* ── Carrega JSON ── */
   fetch("viaturas.json")
     .then(r => { if (!r.ok) throw new Error(r.status); return r.json(); })
     .then(d => { DADOS = d; })
-    .catch(() => {
-      ETXT.textContent = "Não foi possível carregar os dados. Tente mais tarde.";
-      ERRO.classList.add("visivel");
-    });
+    .catch(() => mostrarErro("Não foi possível carregar os dados. Tente mais tarde."));
+
+  /* ── Normaliza texto para pesquisa ── */
+  function norm(txt) {
+    return (txt || "").normalize("NFD").replace(/[\u0300-\u036f]/g, "")
+                      .toLowerCase().trim();
+  }
 
   /* ── Formata matrícula enquanto digita ── */
-  function formatarInput(raw) {
+  function formatarMat(raw) {
     const limpo = raw.replace(/[^A-Z0-9]/gi, "").toUpperCase().slice(0, 6);
     const n = limpo.length;
     if (n <= 2) return limpo;
@@ -400,24 +563,37 @@
     return `${limpo.slice(0,2)}-${limpo.slice(2,4)}-${limpo.slice(4)}`;
   }
 
-  INP.addEventListener("input", () => {
-    const pos    = INP.selectionStart;
-    const antes  = INP.value;
-    const novo   = formatarInput(antes);
-    INP.value    = novo;
-    /* repõe o cursor de forma inteligente */
-    const delta  = novo.length - antes.length;
-    INP.setSelectionRange(pos + delta, pos + delta);
-
-    BTN.disabled = novo.replace(/-/g, "").length < 6;
+  INP_MAT.addEventListener("input", () => {
+    const pos   = INP_MAT.selectionStart;
+    const antes = INP_MAT.value;
+    const novo  = formatarMat(antes);
+    INP_MAT.value = novo;
+    const delta = novo.length - antes.length;
+    INP_MAT.setSelectionRange(pos + delta, pos + delta);
+    actualizarBotao();
     esconder();
   });
 
-  INP.addEventListener("keydown", e => {
-    if (e.key === "Enter" && !BTN.disabled) pesquisar();
+  [INP_COND, INP_LOJA].forEach(el => {
+    el.addEventListener("input", () => { actualizarBotao(); esconder(); });
+  });
+
+  function actualizarBotao() {
+    const mat  = INP_MAT.value.replace(/-/g,"");
+    const cond = INP_COND.value.trim();
+    const loja = INP_LOJA.value.trim();
+    BTN.disabled = mat.length < 6 && cond.length < 2 && loja.length < 2;
+  }
+
+  [INP_MAT, INP_COND, INP_LOJA].forEach(el => {
+    el.addEventListener("keydown", e => {
+      if (e.key === "Enter" && !BTN.disabled) pesquisar();
+    });
   });
 
   BTN.addEventListener("click", pesquisar);
+  BTN_LMP.addEventListener("click", limpar);
+  BTN_VOLT.addEventListener("click", voltarLista);
 
   /* ── Pesquisa ── */
   function pesquisar() {
@@ -425,21 +601,74 @@
       mostrarErro("Os dados ainda não foram carregados. Aguarde um momento.");
       return;
     }
-    const chave = INP.value.replace(/-/g, "").toUpperCase();
-    const viatura = DADOS.find(v => v.chave === chave);
-
     esconder();
-    if (!viatura) {
-      mostrarErro(`Matrícula "${INP.value}" não encontrada.`);
+
+    const mat  = INP_MAT.value.replace(/-/g,"").toUpperCase();
+    const cond = norm(INP_COND.value);
+    const loja = norm(INP_LOJA.value);
+
+    let resultados = DADOS.filter(v => {
+      if (mat  && v.chave !== mat)                        return false;
+      if (cond && !norm(v.condutor).includes(cond))       return false;
+      if (loja && !norm(v.loja).includes(loja))           return false;
+      return true;
+    });
+
+    if (resultados.length === 0) {
+      mostrarErro("Nenhuma viatura encontrada com esses critérios.");
       return;
     }
-    mostrarResultado(viatura);
+
+    if (resultados.length === 1) {
+      mostrarDetalhe(resultados[0], false);
+    } else {
+      mostrarLista(resultados);
+    }
   }
 
-  function mostrarResultado(v) {
-    const val = (x) => x && x.trim() ? x.trim() : null;
+  /* ── Lista de múltiplos resultados ── */
+  function mostrarLista(lista) {
+    ultimaLista = lista;
+    LISTA.innerHTML = "";
 
-    document.getElementById("res-matricula").textContent = v.matricula || INP.value;
+    lista.forEach(v => {
+      const item = document.createElement("div");
+      item.className = "item-lista";
+      item.innerHTML = `
+        <div class="item-lista-header">
+          <svg width="16" height="16" viewBox="0 0 24 24" fill="none" stroke="#fff" stroke-width="1.8" stroke-linecap="round" stroke-linejoin="round" aria-hidden="true">
+            <rect x="1" y="3" width="15" height="13" rx="2"/>
+            <path d="M16 8h4l3 5v4h-7V8z"/>
+            <circle cx="5.5" cy="18.5" r="2.5"/><circle cx="18.5" cy="18.5" r="2.5"/>
+          </svg>
+          <span class="item-mat">${v.matricula || "—"}</span>
+          <span class="item-submarca">${[v.marca, v.modelo].filter(Boolean).join(" ") || ""}</span>
+        </div>
+        <div class="item-corpo">
+          <div class="item-campo">
+            <span class="item-chave">Condutor</span>
+            <span class="item-valor">${v.condutor || "—"}</span>
+          </div>
+          <div class="item-campo">
+            <span class="item-chave">Loja</span>
+            <span class="item-valor">${v.loja || "—"}</span>
+          </div>
+        </div>`;
+      item.addEventListener("click", () => mostrarDetalhe(v, true));
+      LISTA.appendChild(item);
+    });
+
+    LISTA.classList.add("visivel");
+    CONTADOR.innerHTML = `<strong>${lista.length}</strong> viaturas encontradas — clique numa para ver o detalhe`;
+    CONTADOR.classList.add("visivel");
+    LISTA.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  /* ── Detalhe de uma viatura ── */
+  function mostrarDetalhe(v, vemDeLista) {
+    const val = x => x && x.trim() ? x.trim() : null;
+
+    document.getElementById("res-matricula").textContent = v.matricula || "—";
     document.getElementById("res-submarca").textContent =
       [val(v.marca), val(v.modelo)].filter(Boolean).join(" ") || "—";
 
@@ -449,8 +678,22 @@
     preencherCampo("res-modelo",   val(v.modelo));
     preencherCampo("res-galp",     val(v.pin_galp));
 
+    if (vemDeLista) {
+      LISTA.classList.remove("visivel");
+      CONTADOR.classList.remove("visivel");
+      BTN_VOLT.classList.add("visivel");
+    }
+
     CARD.classList.add("visivel");
     CARD.scrollIntoView({ behavior: "smooth", block: "nearest" });
+  }
+
+  function voltarLista() {
+    CARD.classList.remove("visivel");
+    BTN_VOLT.classList.remove("visivel");
+    LISTA.classList.add("visivel");
+    CONTADOR.classList.add("visivel");
+    LISTA.scrollIntoView({ behavior: "smooth", block: "nearest" });
   }
 
   function preencherCampo(id, valor) {
@@ -467,12 +710,23 @@
   function mostrarErro(msg) {
     ETXT.textContent = msg;
     ERRO.classList.add("visivel");
-    CARD.classList.remove("visivel");
   }
 
   function esconder() {
     ERRO.classList.remove("visivel");
     CARD.classList.remove("visivel");
+    LISTA.classList.remove("visivel");
+    CONTADOR.classList.remove("visivel");
+    BTN_VOLT.classList.remove("visivel");
+  }
+
+  function limpar() {
+    INP_MAT.value  = "";
+    INP_COND.value = "";
+    INP_LOJA.value = "";
+    BTN.disabled   = true;
+    esconder();
+    INP_MAT.focus();
   }
 </script>
 </body>
