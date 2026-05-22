@@ -1352,7 +1352,7 @@
   {
     "matricula": "BX-96-PI",
     "chave": "BX96PI",
-    "condutor": "nan",
+    "condutor": "Humberto",
     "loja": "Regua",
     "marca": "Iveco",
     "modelo": "Eurocargo",
@@ -1362,7 +1362,7 @@
     "matricula": "CA-88-RF",
     "chave": "CA88RF",
     "condutor": "Ramiro Monteiro",
-    "loja": "nan",
+    "loja": "Penafiel",
     "marca": "Tesla",
     "modelo": "Model 3 Long Range",
     "pin_galp": ""
@@ -1370,7 +1370,7 @@
   {
     "matricula": "CE-35-NL",
     "chave": "CE35NL",
-    "condutor": "nan",
+    "condutor": "Alvaro Guedes",
     "loja": "Regua",
     "marca": "Iveco",
     "modelo": "Eurocargo",
@@ -1402,5 +1402,23 @@
     "marca": "RENAULT",
     "modelo": "KANGOO VAN",
     "pin_galp": "3681"
+  },
+  {
+    "matricula": "CH-48-DA",
+    "chave": "CH48DA",
+    "condutor": "nan",
+    "loja": "nan",
+    "marca": "Iveco",
+    "modelo": "35S18HA8",
+    "pin_galp": ""
+  },
+  {
+    "matricula": "CH-45-DA",
+    "chave": "CH45DA",
+    "condutor": "nan",
+    "loja": "nan",
+    "marca": "Iveco",
+    "modelo": "35S18HA9",
+    "pin_galp": ""
   }
 ]
